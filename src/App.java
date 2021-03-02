@@ -7,5 +7,15 @@ public class App {
            System.out.println("This is an expression");
        }
 
+       int myVar = 50; 
+       myVar++;
+       myVar--; 
+       System.out.print(myVar);
+
+       int anotherVar = 50; myVar--; 
+       //can be on the same line after a semi-colon 
+
+       
+
     }
 }
